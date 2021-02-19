@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php
-$conn = new mysqli("localhost", "root", "", "banking");
+$conn = new mysqli("sql203.epizy.com", "epiz_27877403", "EBqe2t0NSFc", "epiz_27877403_banking");
  ?>
 <html>
 <center>
