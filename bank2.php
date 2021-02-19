@@ -3,7 +3,7 @@
 <center>
   <h1>Select And View one Customer</h1>
 <?php
-$conn = new mysqli("localhost", "root","" , "banking");
+$conn = new mysqli("sql203.epizy.com", "epiz_27877403", "EBqe2t0NSFc", "epiz_27877403_banking");
 $query="select * from banktable";
 $result=$conn->query($query);?>
   <form class="" action="" method="post">
